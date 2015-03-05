@@ -87,16 +87,16 @@ USE_TZ = True
 if DEBUG:
     MEDIA_URL = '/static/media/'
 
-    STATIC_ROOT = '../static/'
-    MEDIA_ROOT = '../static/media/'
+    STATIC_ROOT = '../oddsfena/static_root/'
+    MEDIA_ROOT = '../oddsfena/static_root/media/'
 
 
     STATICFILES_DIRS = (
-        '../static/',
+        '../oddsfena/static/',
     )
 
     TEMPLATE_DIRS = (
-        '../static/templates/',
+        '../oddsfena/static/templates/',
     )
 
 STATIC_URL = '/static/'

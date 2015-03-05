@@ -1,0 +1,384 @@
+/* Ajustes no bootstrap.css */
+
+/* http://getbootstrap.com/customize/?id=175148fafa4871b6452e */
+
+body {margin-top: 110px;}
+
+@media (min-width: 768px) {
+  body {
+    margin-top: 160px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    margin-top: 110px;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    margin-top: 110px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	color: #004C99;
+}
+
+.lead {
+  color: #AD841F;
+}
+
+.navbar-default {border-top: 2px solid #AD841F;}
+
+.pre-nav {
+  background-color: #004C99; 
+  color: #8B9DC6; 
+  padding-top: 8px; 
+  padding-bottom: 8px; 
+  font-size: 11px; 
+  text-transform: uppercase;
+}
+
+.navbar-brand {margin-top: -6px;}
+.img-brand {height: 34px;}
+
+a {font-weight: bold;}
+a.a-light {font-weight: normal;}
+
+
+.espaco-xs {
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  .espaco-xs {
+    margin-top: 0; 
+  }
+}
+
+
+.espaco-top {
+  margin-top: 30px;
+}
+.espaco-top-sm {
+  margin-top: 12px;
+}
+.espaco-top-lg {
+  margin-top: 60px;
+}
+
+.heading-default {
+  border-top: 1px dotted #d2d2d2;
+  padding-top: 16px;
+}
+
+.news-list ul li {
+  color: #004C99;
+  font-weight: bolder;
+  padding-bottom: 4px;
+  margin-left: -20px;
+}
+
+.news-list {
+  padding: 12px;
+  border-bottom: 1px solid #d2d2d2;
+}
+.news-list-unstyled ul li {
+  margin-left: 0;
+}
+.news-list-unstyled {
+  padding: 0;
+}
+
+.news-list a {
+  font-weight: normal;
+}
+
+.news-block {
+  position: relative;
+  display: inline-block;
+  margin-top: 40px;
+}
+.news-block a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  z-index: 10;
+  background-color: #FFF; /* Fix to make div clickable in IE */
+  opacity: 0; /* Fix to make div clickable in IE */
+  filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+}
+
+@media (min-width: 768px) {
+  .news-block {
+    margin-top: 0; 
+  }
+}
+
+.news-block-primary, .news-block-warning, .news-block-default {
+  padding-top: 12px;
+  padding-bottom: 4px;
+}
+.news-block-primary small, .news-block-warning small, .news-block-default small {
+  text-transform: uppercase;  
+}
+
+
+.news-block-primary small {
+  color: #8B9DC6;
+}
+.news-block-primary p {
+  color: #f2f2f2;
+}
+.news-block-primary h4 {
+  color: #f2f2f2;
+}
+.news-block-primary {
+  background-color: #004C99;
+}
+.news-block:hover .news-block-primary {
+  background-color: #AD841F;
+}
+.news-block:hover .news-block-primary small {
+  color: #5D441A;
+}
+
+
+.news-block-warning small {
+  color: #5D441A;
+}
+.news-block-warning p {
+  color: #f2f2f2;
+}
+.news-block-warning h4 {
+  color: #5D441A;
+}
+.news-block-warning {
+  background-color: #AD841F;
+}
+.news-block:hover .news-block-warning {
+  background-color: #BE8C1D;
+}
+
+
+.news-block-default {
+  min-height: 100px;
+}
+@media (min-width: 768px) {
+  .news-block-default {
+    min-height: 170px;
+  }
+  .espaco-especial-sm {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .news-block-default {
+    min-height: 170px;
+  }
+  .espaco-especial-sm {
+    margin-top: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .news-block-default {
+    min-height: 140px;
+  }
+}
+
+.news-block-default small {
+  /*color: #5D441A;*/
+}
+.news-block-default p {
+  /*color: #f2f2f2;*/
+}
+.news-block-default h5 {
+  /*color: #5D441A;*/
+}
+.news-block-default {
+  background-color: #E6E7E8;
+}
+.news-block:hover .news-block-default {
+  background-color: #F1F1F2;
+}
+
+.rodape {
+  margin-top: 60px;
+  background-color: #f2f2f2;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+.rodape p {
+  font-size: 13px;
+}
+
+.breadcrumb {margin-top: 30px;}
+
+.panel-primary .h3 {
+  color: #f2f2f2;
+}
+
+.ajuste-heading {
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .ajuste-heading {
+    min-height: 62px;
+  }
+  .ajuste-body {
+    min-height: 130px;
+  }
+}
+@media (min-width: 992px) {
+  .ajuste-body {
+    min-height: 150px;
+  }
+}
+
+.titulo-divisao {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f2f2f2; /*#004C99*/
+  /*color: #f2f2f2; */
+  border-radius: 4px;
+  text-align: center;
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+.blocos-grandes li {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  min-height: 120px;
+  margin: 5px; 
+  font-weight: 200;
+  font-size: 15px;
+  float: left;
+  border-radius: 6px;
+}
+@media (min-width: 768px) {
+  .blocos-grandes li {
+    width: 334px;
+    min-height: 150px;
+  }
+}
+@media (min-width: 992px) {
+  .blocos-grandes li {
+    width: 288px;
+    min-height: 180px;
+  }
+}
+@media (min-width: 1200px) {
+  .blocos-grandes li {
+    width: 296px;
+    min-height: 200px;
+  }
+}
+.blocos-grandes li:nth-child(odd) {
+  background-color: #C6A462;
+  color: #fefefe;
+}
+.blocos-grandes li:nth-child(even) {
+  background-color: #EFE4A8;
+  color: #454226;
+}
+.blocos-grandes li span {
+  position: absolute;
+  padding-left: 30px;
+  padding-right: 30px;
+  top: 50%;
+  left: 50%;
+  margin-left: -50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.list-sindicatos li {
+  padding: 20px;
+}
+
+.list-sindicatos li:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.list-sindicatos li:nth-child(even) {
+  background-color: #ffffff;
+}
+
+
+.month-year {
+  border-bottom: 2px solid #f2f2f2;
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.month-year:first-of-type {
+  margin-top: 0;
+}
+
+
+.evento li {
+  padding: 20px;
+}
+.evento li:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.evento li:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.periodo {
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.local {
+  width: 100%;
+  display: inline-block;
+}
+.horario {
+  width: 100%;
+  display: inline-block;
+}
+.mais-info {
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+}
+.site-oficial {
+  width: 100%;
+  display: inline-block;
+}
+.email-contato {
+  width: 100%;
+  display: inline-block;
+}
+
+.agenda-pdf {
+  margin-bottom: 30px;
+}
+.agenda-pdf:first-of-type {
+  margin-top: 30px;
+}
+
+
+.text-center-sm {
+  text-align: left;
+}
+@media (min-width: 768px) {
+  .text-center-sm {
+    text-align: center;
+  }
+}
