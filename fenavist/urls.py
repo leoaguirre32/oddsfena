@@ -12,6 +12,8 @@ urlpatterns = patterns('',
     url(r'^institucional/equipe$', 'institucional.views.equipe', name='equipe'),
     url(r'^institucional/parcerias$', 'institucional.views.parcerias', name='parcerias'),
     url(r'^institucional/sindicatos$', 'institucional.views.sindicatos', name='sindicatos'),
+
+    url(r'^agenda/eventos$', 'agenda.views.eventos', name='eventos'),
     url(r'^admin/', include(admin.site.urls)),
 )
 
