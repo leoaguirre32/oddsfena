@@ -22,7 +22,7 @@ SECRET_KEY = '2cb-6_a(zgv@7%k6sg*dmnn0k6oeo(y8tr#=v-6k@dejp5jw^v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = []
 
@@ -48,6 +48,8 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
+# FALTA ADICIONAR TEMPLATE_CONTEXT_PROCESSORS
+
 ROOT_URLCONF = 'fenavist.urls'
 
 WSGI_APPLICATION = 'fenavist.wsgi.application'
@@ -66,18 +68,35 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Sao_Paulo'
 
 USE_I18N = True
 
 USE_L10N = True
+
+USE_THOUSAND_SEPARATOR = True
 
 USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
+
+if DEBUG:
+    MEDIA_URL = '/static/media/'
+
+    STATIC_ROOT = '../static/'
+    MEDIA_ROOT = '../static/media/'
+
+
+    STATICFILES_DIRS = (
+        '../static/',
+    )
+
+    TEMPLATE_DIRS = (
+        '../static/templates/',
+    )
 
 STATIC_URL = '/static/'
