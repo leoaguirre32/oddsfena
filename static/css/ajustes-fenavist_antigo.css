@@ -1,0 +1,77 @@
+/* Ajustes no bootstrap.css */
+
+/* http://getbootstrap.com/customize/?id=0c8725c8d3c3a87219fd */
+/*http://getbootstrap.com/customize/?id=38f5a1e235720b405ca6 */
+
+* {font-family: 'Droid Sans', sans-serif;}
+
+body {margin-top: 60px; margin-bottom: 60px;}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Droid Serif', serif;
+	color: #003666; /* Mesmo azul usado no site da CNC */
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
+.h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small,
+h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small,
+.h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small, {
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.navbar-default {border-top: 3px solid #114b8c;}
+
+a {
+  color: #00A7E0;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #00A7E0;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn-link {
+  color: #00A7E0;
+  font-weight: normal;
+  border-radius: 0;
+}
+.btn-link,
+.btn-link:active,
+.btn-link.active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  border-color: transparent;
+}
+.btn-link:hover,
+.btn-link:focus {
+  color: #00A7E0;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+  color: #777777;
+  text-decoration: none;
+}
+
+
+.espaco-top {
+	margin-top: 30px;
+}
